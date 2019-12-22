@@ -1,0 +1,48 @@
+.main-scene {
+    height: 100%;
+    overflow: hidden;
+
+
+    &-inner {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .main-scene-container {
+            position: relative;
+            flex: 1 1 auto;
+            overflow: hidden;
+
+            img.container-bg {
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                &-wall {
+                    height: 100%;
+                }
+
+                &-table {
+                    top: unset;
+                    bottom: 0 !important;
+                }
+            }
+        }
+
+        .main-scene-footer {
+            flex: 0 0 auto;
+            height: 135px;
+        }
+    }
+
+}
+
+.footer-bar--fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    z-index: 9999;
+}

@@ -1,0 +1,1802 @@
+{
+    "groups": [
+        {
+            "keys": "dft_json,dft_music_stop_png,dft_music_play_png",
+            "name": "default"
+        },
+        {
+            "keys": "page4_30_png,page4_31_png,page4_32_png,n3_1_png,n4_3_png,n4_1_png,n3_3_png,n3_4_png,n3_2_png,n4_5_png,loading_mp3,n3_5_png,n3_6_png,n3_7_png,n3_8_png,n3_9_png,n3_10_png,n3_11_png,n3_12_png,n3_13_png,n3_14_png,n3_15_png,n3_16_png,n3_17_png,n3_18_png,n3_19_png,n3_20_png,n3_21_png,n3_22_png,n3_23_png,n3_24_png,n3_25_png,n3_26_png,n3_27_png,n3_28_png,n3_29_png,n3_30_png,n3_31_png,n3_32_png,n3_33_png,n3_34_png,n3_35_png,n3_36_png,n3_37_png,n3_38_png,n3_39_png,n3_40_png,n3_41_png,n3_42_png,n3_43_png,n3_44_png,n3_45_png,n3_46_png,n3_47_png,n3_48_png,n3_49_png,n3_50_png,n3_51_png,n3_52_png,n3_53_png,n3_54_png,n3_55_png,n3_56_png,n3_57_png,n3_58_png,n3_59_png,ui_1_png,ui_3_png,ui_9_png,ui_11_png,ui_12_png,ui_13_png,page4_28_png,g1_11_png,g1_13_png,g1_14_png,g1_15_png,g1_16_png,g1_17_png,g1_18_png,g1_19_png,n1_8_png,n1_9_png,n1_10_png,n1_11_png,ui_01_png,ui_02_png,ui_03_png,ui_04_png,ui_14_png,n2_21_png,n2_22_png,n2_23_png,n2_24_png,n2_25_png,n2_26_png,n2_27_png,n2_32_png,n2_34_png,n2_35_png,ui_21_png,ui_22_png,ui_23_png,ui_24_png,ui_25_png,ui_26_png,ui_27_png,ui_28_png,ui_29_png,ui_31_png,ui_32_png,ui_33_png,ui_34_png,ui_35_png,ui_36_png,ui_37_png,ui_38_png,ui_39_png,ui_210_png,ui_310_png,n2_31_png,n2_33_png,n4_11_png,n4_12_png,n4_13_png,n4_14_png,n4_15_png,n4_16_png,n4_17_png,n4_18_png,n4_19_png,n4_20_png,n4_21_png,n4_23_png,n4_24_png,n4_25_png,n4_26_png,n4_27_png,n4_28_png,n4_6_png,n4_7_png,n4_8_png,n4_9_png,n4_10_png,n2_28_png,n4_22_png,ui_333_png,page4_311_png,page4_321_png,page4_301_png,bcc_bg_png,g1_0_png,g1_1_png,g1_2_png,g1_3_png,g2_0_png,g2_1_png,g2_2_png,g2_3_png,stop_png,n4_29_png,n4_30_png,n4_31_png,n4_32_png,bg_3_png,n2_29_png,logo1_png,s2_210_png,s2_36_png,n2_36_png,n2_210_png,n4_33_png,n4_34_png,s4_33_png,s4_34_png,page5_1_jpg_3_png,page5_1_jpg_1_png,page5_1_jpg_4_png,page5_1_jpg_2_png,s1_8_jpg,s1_9_jpg,s1_10_jpg,s1_11_jpg,s1_88_png,s1_99_png,s1_1010_png,s1_1111_png,n4_35_png,n4_36_png,n4_37_png,n4_38_png,s4_37_png,s4_36_png,s4_35_png,s4_38_png,rw01_png,rw02_png,rw03_png,rw04_png,rw05_png,rw11_png,rw12_png,rw13_png,rw14_png,rw15_png,s2_61_png,s2_62_png,s2_63_png,s2_64_png,s2_65_png,s2_66_png,pop_2_png,pop_3_png",
+            "name": "preload"
+        },
+        {
+            "keys": "s4_3_png,s4_1_png,s4_5_png,s4_16_png,s4_19_png,s4_20_png,s4_18_png,s4_21_png,s4_23_png,s4_24_png,s4_25_png,s4_27_png,s4_28_png,s4_26_png,s4_7_png,s4_6_png,s4_8_png,s4_9_png,s4_10_png,s4_11_png,s4_13_png,s4_12_png,s4_14_png,s4_15_png,s4_17_png,s4_22_png,s4_29_png,s4_30_png,s4_31_png,s4_32_png,s2_23_png,s2_41_png,s2_22_png,s2_42_png,s2_43_png,s2_21_png,s2_44_png,s2_26_png,s2_25_png,s2_24_png,s2_27_png,s2_31_png,s2_32_png,s2_33_png,s2_34_png,s2_35_png,s2_28_png,s2_29_png,s3_1_png,s3_2_png,s3_3_png,s3_4_png,s3_41_png,s3_42_png,s3_43_png,s3_44_png,s3_45_png,s3_46_png,s3_47_png,s3_48_png,s3_49_png,s3_50_png,s3_51_png,s3_52_png,s3_53_png,s3_54_png,s3_55_png,s3_56_png,s3_57_png,s3_58_png,s3_59_png,s3_5_png,s3_6_png,s3_7_png,s3_8_png,s3_9_png,s3_10_png,s3_11_png,s3_12_png,s3_13_png,s3_14_png,s3_15_png,s3_16_png,s3_17_png,s3_18_png,s3_19_png,s3_20_png,s3_21_png,s3_22_png,s3_23_png,s3_24_png,s3_25_png,s3_26_png,s3_27_png,s3_28_png,s3_29_png,s3_30_png,s3_31_png,s3_32_png,s3_33_png,s3_34_png,s3_35_png,s3_36_png,s3_37_png,s3_38_png,s3_39_png,s3_40_png,page5_1_jpg_png,end1_3_png,end3_1_png,end3_2_png,end3_3_png,end3_4_png,end1_1_png,end2_1_jpg_png,poster_2_png,poster_5_png,poster_6_png,pop_1_png",
+            "name": "preload2"
+        },
+        {
+            "keys": "",
+            "name": "preload3"
+        },
+        {
+            "keys": "",
+            "name": "preload4"
+        },
+        {
+            "keys": "",
+            "name": "preload5"
+        },
+        {
+            "keys": "",
+            "name": "preload6"
+        },
+        {
+            "keys": "",
+            "name": "preload7"
+        },
+        {
+            "keys": "loading_2_png,loading_11_png,loading_1_png,loading_3_png,loading_4_png,loading_5_png,loading_6_png,loading_7_png,loading_8_png,loading_9_png,loading_10_png,loading_12_png,loading_13_png,loading_14_png,loading_15_png,logo_png",
+            "name": "loading"
+        },
+        {
+            "keys": "s4_9_png,s4_8_png,s4_7_png,s4_6_png,s4_5_png,s4_34_png,s4_33_png,s4_32_png,s4_31_png,s4_30_png,s4_3_png,s4_29_png,s4_28_png,s4_27_png,s4_26_png,s4_25_png,s4_24_png,s4_23_png,s4_22_png,s4_21_png,s4_20_png,s4_19_png,s4_18_png,s4_17_png,s4_16_png,s4_15_png,s4_14_png,s4_13_png,s4_12_png,s4_11_png,s4_10_png,s4_1_png",
+            "name": "preload1"
+        }
+    ],
+    "resources": [
+        {
+            "url": "assets/default/dft.json",
+            "type": "sheet",
+            "name": "dft_json",
+            "subkeys": "dft_bgm_ico,dft_bgm_main,dft_com_adr,dft_com_ios_1,dft_com_ios_10,dft_com_ios_11,dft_com_ios_2,dft_com_ios_3,dft_com_ios_4,dft_com_ios_5,dft_com_ios_6,dft_com_ios_7,dft_com_ios_8,dft_com_ios_9,dft_hand,dft_ios_hint,dft_ori_ico"
+        },
+        {
+            "url": "assets/default/dft_music_stop.png",
+            "type": "image",
+            "name": "dft_music_stop_png"
+        },
+        {
+            "url": "assets/default/dft_music_play.png",
+            "type": "image",
+            "name": "dft_music_play_png"
+        },
+        {
+            "url": "assets/preload/game/page4_30.png",
+            "type": "image",
+            "name": "page4_30_png"
+        },
+        {
+            "url": "assets/preload/game/page4_31.png",
+            "type": "image",
+            "name": "page4_31_png"
+        },
+        {
+            "url": "assets/preload/game/page4_32.png",
+            "type": "image",
+            "name": "page4_32_png"
+        },
+        {
+            "url": "assets/preload/end/page5_1_jpg.png",
+            "type": "image",
+            "name": "page5_1_jpg_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_1.png",
+            "type": "image",
+            "name": "n3_1_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_3.png",
+            "type": "image",
+            "name": "n4_3_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_1.png",
+            "type": "image",
+            "name": "n4_1_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_1.png",
+            "type": "image",
+            "name": "s3_1_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_3.png",
+            "type": "image",
+            "name": "s4_3_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_1.png",
+            "type": "image",
+            "name": "s4_1_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_2.png",
+            "type": "image",
+            "name": "s3_2_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_5.png",
+            "type": "image",
+            "name": "s4_5_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_3.png",
+            "type": "image",
+            "name": "n3_3_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_4.png",
+            "type": "image",
+            "name": "n3_4_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_2.png",
+            "type": "image",
+            "name": "n3_2_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_3.png",
+            "type": "image",
+            "name": "s3_3_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_4.png",
+            "type": "image",
+            "name": "s3_4_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_5.png",
+            "type": "image",
+            "name": "n4_5_png"
+        },
+        {
+            "url": "assets/loading.mp3",
+            "type": "sound",
+            "name": "loading_mp3"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_5.png",
+            "type": "image",
+            "name": "n3_5_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_6.png",
+            "type": "image",
+            "name": "n3_6_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_7.png",
+            "type": "image",
+            "name": "n3_7_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_8.png",
+            "type": "image",
+            "name": "n3_8_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_9.png",
+            "type": "image",
+            "name": "n3_9_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_10.png",
+            "type": "image",
+            "name": "n3_10_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_11.png",
+            "type": "image",
+            "name": "n3_11_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_12.png",
+            "type": "image",
+            "name": "n3_12_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_13.png",
+            "type": "image",
+            "name": "n3_13_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_14.png",
+            "type": "image",
+            "name": "n3_14_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_15.png",
+            "type": "image",
+            "name": "n3_15_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_16.png",
+            "type": "image",
+            "name": "n3_16_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_17.png",
+            "type": "image",
+            "name": "n3_17_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_18.png",
+            "type": "image",
+            "name": "n3_18_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_19.png",
+            "type": "image",
+            "name": "n3_19_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_20.png",
+            "type": "image",
+            "name": "n3_20_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_21.png",
+            "type": "image",
+            "name": "n3_21_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_22.png",
+            "type": "image",
+            "name": "n3_22_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_23.png",
+            "type": "image",
+            "name": "n3_23_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_24.png",
+            "type": "image",
+            "name": "n3_24_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_25.png",
+            "type": "image",
+            "name": "n3_25_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_26.png",
+            "type": "image",
+            "name": "n3_26_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_27.png",
+            "type": "image",
+            "name": "n3_27_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_28.png",
+            "type": "image",
+            "name": "n3_28_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_29.png",
+            "type": "image",
+            "name": "n3_29_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_30.png",
+            "type": "image",
+            "name": "n3_30_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_31.png",
+            "type": "image",
+            "name": "n3_31_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_32.png",
+            "type": "image",
+            "name": "n3_32_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_33.png",
+            "type": "image",
+            "name": "n3_33_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_34.png",
+            "type": "image",
+            "name": "n3_34_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_35.png",
+            "type": "image",
+            "name": "n3_35_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_36.png",
+            "type": "image",
+            "name": "n3_36_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_37.png",
+            "type": "image",
+            "name": "n3_37_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_38.png",
+            "type": "image",
+            "name": "n3_38_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_39.png",
+            "type": "image",
+            "name": "n3_39_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_40.png",
+            "type": "image",
+            "name": "n3_40_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_41.png",
+            "type": "image",
+            "name": "n3_41_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_42.png",
+            "type": "image",
+            "name": "n3_42_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_43.png",
+            "type": "image",
+            "name": "n3_43_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_44.png",
+            "type": "image",
+            "name": "n3_44_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_45.png",
+            "type": "image",
+            "name": "n3_45_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_46.png",
+            "type": "image",
+            "name": "n3_46_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_47.png",
+            "type": "image",
+            "name": "n3_47_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_48.png",
+            "type": "image",
+            "name": "n3_48_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_49.png",
+            "type": "image",
+            "name": "n3_49_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_50.png",
+            "type": "image",
+            "name": "n3_50_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_51.png",
+            "type": "image",
+            "name": "n3_51_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_52.png",
+            "type": "image",
+            "name": "n3_52_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_53.png",
+            "type": "image",
+            "name": "n3_53_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_54.png",
+            "type": "image",
+            "name": "n3_54_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_55.png",
+            "type": "image",
+            "name": "n3_55_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_56.png",
+            "type": "image",
+            "name": "n3_56_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_57.png",
+            "type": "image",
+            "name": "n3_57_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_58.png",
+            "type": "image",
+            "name": "n3_58_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/ximiannai3/n3_59.png",
+            "type": "image",
+            "name": "n3_59_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_41.png",
+            "type": "image",
+            "name": "s3_41_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_42.png",
+            "type": "image",
+            "name": "s3_42_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_43.png",
+            "type": "image",
+            "name": "s3_43_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_44.png",
+            "type": "image",
+            "name": "s3_44_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_45.png",
+            "type": "image",
+            "name": "s3_45_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_46.png",
+            "type": "image",
+            "name": "s3_46_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_47.png",
+            "type": "image",
+            "name": "s3_47_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_48.png",
+            "type": "image",
+            "name": "s3_48_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_49.png",
+            "type": "image",
+            "name": "s3_49_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_50.png",
+            "type": "image",
+            "name": "s3_50_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_51.png",
+            "type": "image",
+            "name": "s3_51_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_52.png",
+            "type": "image",
+            "name": "s3_52_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_53.png",
+            "type": "image",
+            "name": "s3_53_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_54.png",
+            "type": "image",
+            "name": "s3_54_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_55.png",
+            "type": "image",
+            "name": "s3_55_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_56.png",
+            "type": "image",
+            "name": "s3_56_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_57.png",
+            "type": "image",
+            "name": "s3_57_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_58.png",
+            "type": "image",
+            "name": "s3_58_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_59.png",
+            "type": "image",
+            "name": "s3_59_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_5.png",
+            "type": "image",
+            "name": "s3_5_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_6.png",
+            "type": "image",
+            "name": "s3_6_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_7.png",
+            "type": "image",
+            "name": "s3_7_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_8.png",
+            "type": "image",
+            "name": "s3_8_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_9.png",
+            "type": "image",
+            "name": "s3_9_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_10.png",
+            "type": "image",
+            "name": "s3_10_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_11.png",
+            "type": "image",
+            "name": "s3_11_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_12.png",
+            "type": "image",
+            "name": "s3_12_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_13.png",
+            "type": "image",
+            "name": "s3_13_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_14.png",
+            "type": "image",
+            "name": "s3_14_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_15.png",
+            "type": "image",
+            "name": "s3_15_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_16.png",
+            "type": "image",
+            "name": "s3_16_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_17.png",
+            "type": "image",
+            "name": "s3_17_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_18.png",
+            "type": "image",
+            "name": "s3_18_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_19.png",
+            "type": "image",
+            "name": "s3_19_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_20.png",
+            "type": "image",
+            "name": "s3_20_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_21.png",
+            "type": "image",
+            "name": "s3_21_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_22.png",
+            "type": "image",
+            "name": "s3_22_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_23.png",
+            "type": "image",
+            "name": "s3_23_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_24.png",
+            "type": "image",
+            "name": "s3_24_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_25.png",
+            "type": "image",
+            "name": "s3_25_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_26.png",
+            "type": "image",
+            "name": "s3_26_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_27.png",
+            "type": "image",
+            "name": "s3_27_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_28.png",
+            "type": "image",
+            "name": "s3_28_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_29.png",
+            "type": "image",
+            "name": "s3_29_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_30.png",
+            "type": "image",
+            "name": "s3_30_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_31.png",
+            "type": "image",
+            "name": "s3_31_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_32.png",
+            "type": "image",
+            "name": "s3_32_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_33.png",
+            "type": "image",
+            "name": "s3_33_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_34.png",
+            "type": "image",
+            "name": "s3_34_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_35.png",
+            "type": "image",
+            "name": "s3_35_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_36.png",
+            "type": "image",
+            "name": "s3_36_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_37.png",
+            "type": "image",
+            "name": "s3_37_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_38.png",
+            "type": "image",
+            "name": "s3_38_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_39.png",
+            "type": "image",
+            "name": "s3_39_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/ximiannai3/s3_40.png",
+            "type": "image",
+            "name": "s3_40_png"
+        },
+        {
+            "url": "assets/preload/game/ui_1.png",
+            "type": "image",
+            "name": "ui_1_png"
+        },
+        {
+            "url": "assets/preload/game/ui_3.png",
+            "type": "image",
+            "name": "ui_3_png"
+        },
+        {
+            "url": "assets/preload/game/ui_9.png",
+            "type": "image",
+            "name": "ui_9_png"
+        },
+        {
+            "url": "assets/preload/game/ui_11.png",
+            "type": "image",
+            "name": "ui_11_png"
+        },
+        {
+            "url": "assets/preload/game/ui_12.png",
+            "type": "image",
+            "name": "ui_12_png"
+        },
+        {
+            "url": "assets/preload/game/ui_13.png",
+            "type": "image",
+            "name": "ui_13_png"
+        },
+        {
+            "url": "assets/loading/loading_1.png",
+            "type": "image",
+            "name": "loading_1_png"
+        },
+        {
+            "url": "assets/loading/loading_11.png",
+            "type": "image",
+            "name": "loading_11_png"
+        },
+        {
+            "url": "assets/loading/loading_2.png",
+            "type": "image",
+            "name": "loading_2_png"
+        },
+        {
+            "url": "assets/preload/game/page4_28.png",
+            "type": "image",
+            "name": "page4_28_png"
+        },
+        {
+            "url": "assets/preload/game/g1_11.png",
+            "type": "image",
+            "name": "g1_11_png"
+        },
+        {
+            "url": "assets/preload/game/g1_13.png",
+            "type": "image",
+            "name": "g1_13_png"
+        },
+        {
+            "url": "assets/preload/game/g1_14.png",
+            "type": "image",
+            "name": "g1_14_png"
+        },
+        {
+            "url": "assets/preload/game/g1_15.png",
+            "type": "image",
+            "name": "g1_15_png"
+        },
+        {
+            "url": "assets/preload/game/g1_16.png",
+            "type": "image",
+            "name": "g1_16_png"
+        },
+        {
+            "url": "assets/preload/game/g1_17.png",
+            "type": "image",
+            "name": "g1_17_png"
+        },
+        {
+            "url": "assets/preload/game/g1_18.png",
+            "type": "image",
+            "name": "g1_18_png"
+        },
+        {
+            "url": "assets/preload/game/g1_19.png",
+            "type": "image",
+            "name": "g1_19_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/muyin1/n1_8.png",
+            "type": "image",
+            "name": "n1_8_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/muyin1/n1_9.png",
+            "type": "image",
+            "name": "n1_9_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/muyin1/n1_10.png",
+            "type": "image",
+            "name": "n1_10_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/muyin1/n1_11.png",
+            "type": "image",
+            "name": "n1_11_png"
+        },
+        {
+            "url": "assets/preload/game/ui_01.png",
+            "type": "image",
+            "name": "ui_01_png"
+        },
+        {
+            "url": "assets/preload/game/ui_02.png",
+            "type": "image",
+            "name": "ui_02_png"
+        },
+        {
+            "url": "assets/preload/game/ui_03.png",
+            "type": "image",
+            "name": "ui_03_png"
+        },
+        {
+            "url": "assets/preload/game/ui_04.png",
+            "type": "image",
+            "name": "ui_04_png"
+        },
+        {
+            "url": "assets/preload/game/ui_14.png",
+            "type": "image",
+            "name": "ui_14_png"
+        },
+        {
+            "url": "assets/preload/end/end1_3.png",
+            "type": "image",
+            "name": "end1_3_png"
+        },
+        {
+            "url": "assets/preload/end/end3_1.png",
+            "type": "image",
+            "name": "end3_1_png"
+        },
+        {
+            "url": "assets/preload/end/end3_2.png",
+            "type": "image",
+            "name": "end3_2_png"
+        },
+        {
+            "url": "assets/preload/end/end3_3.png",
+            "type": "image",
+            "name": "end3_3_png"
+        },
+        {
+            "url": "assets/preload/end/end3_4.png",
+            "type": "image",
+            "name": "end3_4_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_21.png",
+            "type": "image",
+            "name": "n2_21_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_22.png",
+            "type": "image",
+            "name": "n2_22_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_23.png",
+            "type": "image",
+            "name": "n2_23_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_23.png",
+            "type": "image",
+            "name": "s2_23_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_41.png",
+            "type": "image",
+            "name": "s2_41_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_22.png",
+            "type": "image",
+            "name": "s2_22_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_42.png",
+            "type": "image",
+            "name": "s2_42_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_43.png",
+            "type": "image",
+            "name": "s2_43_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_21.png",
+            "type": "image",
+            "name": "s2_21_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_44.png",
+            "type": "image",
+            "name": "s2_44_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_24.png",
+            "type": "image",
+            "name": "s2_24_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_25.png",
+            "type": "image",
+            "name": "s2_25_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_26.png",
+            "type": "image",
+            "name": "s2_26_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_24.png",
+            "type": "image",
+            "name": "n2_24_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_25.png",
+            "type": "image",
+            "name": "n2_25_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_26.png",
+            "type": "image",
+            "name": "n2_26_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_27.png",
+            "type": "image",
+            "name": "n2_27_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_27.png",
+            "type": "image",
+            "name": "s2_27_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_32.png",
+            "type": "image",
+            "name": "n2_32_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_34.png",
+            "type": "image",
+            "name": "n2_34_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_35.png",
+            "type": "image",
+            "name": "n2_35_png"
+        },
+        {
+            "url": "assets/preload/game/ui_21.png",
+            "type": "image",
+            "name": "ui_21_png"
+        },
+        {
+            "url": "assets/preload/game/ui_22.png",
+            "type": "image",
+            "name": "ui_22_png"
+        },
+        {
+            "url": "assets/preload/game/ui_23.png",
+            "type": "image",
+            "name": "ui_23_png"
+        },
+        {
+            "url": "assets/preload/game/ui_24.png",
+            "type": "image",
+            "name": "ui_24_png"
+        },
+        {
+            "url": "assets/preload/game/ui_25.png",
+            "type": "image",
+            "name": "ui_25_png"
+        },
+        {
+            "url": "assets/preload/game/ui_26.png",
+            "type": "image",
+            "name": "ui_26_png"
+        },
+        {
+            "url": "assets/preload/game/ui_27.png",
+            "type": "image",
+            "name": "ui_27_png"
+        },
+        {
+            "url": "assets/preload/game/ui_28.png",
+            "type": "image",
+            "name": "ui_28_png"
+        },
+        {
+            "url": "assets/preload/game/ui_29.png",
+            "type": "image",
+            "name": "ui_29_png"
+        },
+        {
+            "url": "assets/preload/game/ui_31.png",
+            "type": "image",
+            "name": "ui_31_png"
+        },
+        {
+            "url": "assets/preload/game/ui_32.png",
+            "type": "image",
+            "name": "ui_32_png"
+        },
+        {
+            "url": "assets/preload/game/ui_33.png",
+            "type": "image",
+            "name": "ui_33_png"
+        },
+        {
+            "url": "assets/preload/game/ui_34.png",
+            "type": "image",
+            "name": "ui_34_png"
+        },
+        {
+            "url": "assets/preload/game/ui_35.png",
+            "type": "image",
+            "name": "ui_35_png"
+        },
+        {
+            "url": "assets/preload/game/ui_36.png",
+            "type": "image",
+            "name": "ui_36_png"
+        },
+        {
+            "url": "assets/preload/game/ui_37.png",
+            "type": "image",
+            "name": "ui_37_png"
+        },
+        {
+            "url": "assets/preload/game/ui_38.png",
+            "type": "image",
+            "name": "ui_38_png"
+        },
+        {
+            "url": "assets/preload/game/ui_39.png",
+            "type": "image",
+            "name": "ui_39_png"
+        },
+        {
+            "url": "assets/preload/game/ui_210.png",
+            "type": "image",
+            "name": "ui_210_png"
+        },
+        {
+            "url": "assets/preload/game/ui_310.png",
+            "type": "image",
+            "name": "ui_310_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_31.png",
+            "type": "image",
+            "name": "s2_31_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_32.png",
+            "type": "image",
+            "name": "s2_32_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_33.png",
+            "type": "image",
+            "name": "s2_33_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_34.png",
+            "type": "image",
+            "name": "s2_34_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_35.png",
+            "type": "image",
+            "name": "s2_35_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_16.png",
+            "type": "image",
+            "name": "s4_16_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_19.png",
+            "type": "image",
+            "name": "s4_19_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_20.png",
+            "type": "image",
+            "name": "s4_20_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_18.png",
+            "type": "image",
+            "name": "s4_18_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_21.png",
+            "type": "image",
+            "name": "s4_21_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_23.png",
+            "type": "image",
+            "name": "s4_23_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_24.png",
+            "type": "image",
+            "name": "s4_24_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_25.png",
+            "type": "image",
+            "name": "s4_25_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_27.png",
+            "type": "image",
+            "name": "s4_27_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_28.png",
+            "type": "image",
+            "name": "s4_28_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_26.png",
+            "type": "image",
+            "name": "s4_26_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_7.png",
+            "type": "image",
+            "name": "s4_7_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_6.png",
+            "type": "image",
+            "name": "s4_6_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_8.png",
+            "type": "image",
+            "name": "s4_8_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_9.png",
+            "type": "image",
+            "name": "s4_9_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_10.png",
+            "type": "image",
+            "name": "s4_10_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_11.png",
+            "type": "image",
+            "name": "s4_11_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_13.png",
+            "type": "image",
+            "name": "s4_13_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_12.png",
+            "type": "image",
+            "name": "s4_12_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_14.png",
+            "type": "image",
+            "name": "s4_14_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_15.png",
+            "type": "image",
+            "name": "s4_15_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_31.png",
+            "type": "image",
+            "name": "n2_31_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_33.png",
+            "type": "image",
+            "name": "n2_33_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_8.jpg",
+            "type": "image",
+            "name": "s1_8_jpg"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_9.jpg",
+            "type": "image",
+            "name": "s1_9_jpg"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_10.jpg",
+            "type": "image",
+            "name": "s1_10_jpg"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_11.jpg",
+            "type": "image",
+            "name": "s1_11_jpg"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_11.png",
+            "type": "image",
+            "name": "n4_11_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_12.png",
+            "type": "image",
+            "name": "n4_12_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_13.png",
+            "type": "image",
+            "name": "n4_13_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_14.png",
+            "type": "image",
+            "name": "n4_14_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_15.png",
+            "type": "image",
+            "name": "n4_15_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_16.png",
+            "type": "image",
+            "name": "n4_16_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_17.png",
+            "type": "image",
+            "name": "n4_17_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_18.png",
+            "type": "image",
+            "name": "n4_18_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_19.png",
+            "type": "image",
+            "name": "n4_19_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_20.png",
+            "type": "image",
+            "name": "n4_20_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_21.png",
+            "type": "image",
+            "name": "n4_21_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_23.png",
+            "type": "image",
+            "name": "n4_23_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_24.png",
+            "type": "image",
+            "name": "n4_24_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_25.png",
+            "type": "image",
+            "name": "n4_25_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_26.png",
+            "type": "image",
+            "name": "n4_26_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_27.png",
+            "type": "image",
+            "name": "n4_27_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_28.png",
+            "type": "image",
+            "name": "n4_28_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_6.png",
+            "type": "image",
+            "name": "n4_6_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_7.png",
+            "type": "image",
+            "name": "n4_7_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_8.png",
+            "type": "image",
+            "name": "n4_8_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_9.png",
+            "type": "image",
+            "name": "n4_9_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_10.png",
+            "type": "image",
+            "name": "n4_10_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_17.png",
+            "type": "image",
+            "name": "s4_17_png"
+        },
+        {
+            "url": "assets/preload/end/end1_1.png",
+            "type": "image",
+            "name": "end1_1_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_28.png",
+            "type": "image",
+            "name": "n2_28_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_28.png",
+            "type": "image",
+            "name": "s2_28_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_22.png",
+            "type": "image",
+            "name": "s4_22_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_22.png",
+            "type": "image",
+            "name": "n4_22_png"
+        },
+        {
+            "url": "assets/preload/game/ui_333.png",
+            "type": "image",
+            "name": "ui_333_png"
+        },
+        {
+            "url": "assets/loading/loading_3.png",
+            "type": "image",
+            "name": "loading_3_png"
+        },
+        {
+            "url": "assets/loading/loading_4.png",
+            "type": "image",
+            "name": "loading_4_png"
+        },
+        {
+            "url": "assets/loading/loading_5.png",
+            "type": "image",
+            "name": "loading_5_png"
+        },
+        {
+            "url": "assets/loading/loading_6.png",
+            "type": "image",
+            "name": "loading_6_png"
+        },
+        {
+            "url": "assets/loading/loading_7.png",
+            "type": "image",
+            "name": "loading_7_png"
+        },
+        {
+            "url": "assets/loading/loading_8.png",
+            "type": "image",
+            "name": "loading_8_png"
+        },
+        {
+            "url": "assets/loading/loading_9.png",
+            "type": "image",
+            "name": "loading_9_png"
+        },
+        {
+            "url": "assets/loading/loading_10.png",
+            "type": "image",
+            "name": "loading_10_png"
+        },
+        {
+            "url": "assets/loading/loading_12.png",
+            "type": "image",
+            "name": "loading_12_png"
+        },
+        {
+            "url": "assets/loading/loading_13.png",
+            "type": "image",
+            "name": "loading_13_png"
+        },
+        {
+            "url": "assets/loading/loading_14.png",
+            "type": "image",
+            "name": "loading_14_png"
+        },
+        {
+            "url": "assets/loading/loading_15.png",
+            "type": "image",
+            "name": "loading_15_png"
+        },
+        {
+            "url": "assets/preload/game/page4_311.png",
+            "type": "image",
+            "name": "page4_311_png"
+        },
+        {
+            "url": "assets/preload/game/page4_321.png",
+            "type": "image",
+            "name": "page4_321_png"
+        },
+        {
+            "url": "assets/preload/game/page4_301.png",
+            "type": "image",
+            "name": "page4_301_png"
+        },
+        {
+            "url": "assets/preload/game/bcc_bg.png",
+            "type": "image",
+            "name": "bcc_bg_png"
+        },
+        {
+            "url": "assets/loading/logo.png",
+            "type": "image",
+            "name": "logo_png"
+        },
+        {
+            "url": "assets/preload/game/g1_0.png",
+            "type": "image",
+            "name": "g1_0_png"
+        },
+        {
+            "url": "assets/preload/game/g1_1.png",
+            "type": "image",
+            "name": "g1_1_png"
+        },
+        {
+            "url": "assets/preload/game/g1_2.png",
+            "type": "image",
+            "name": "g1_2_png"
+        },
+        {
+            "url": "assets/preload/game/g1_3.png",
+            "type": "image",
+            "name": "g1_3_png"
+        },
+        {
+            "url": "assets/preload/game/g2_0.png",
+            "type": "image",
+            "name": "g2_0_png"
+        },
+        {
+            "url": "assets/preload/game/g2_1.png",
+            "type": "image",
+            "name": "g2_1_png"
+        },
+        {
+            "url": "assets/preload/game/g2_2.png",
+            "type": "image",
+            "name": "g2_2_png"
+        },
+        {
+            "url": "assets/preload/game/g2_3.png",
+            "type": "image",
+            "name": "g2_3_png"
+        },
+        {
+            "url": "assets/preload/game/stop.png",
+            "type": "image",
+            "name": "stop_png"
+        },
+        {
+            "url": "assets/preload/popup/pop_1.png",
+            "type": "image",
+            "name": "pop_1_png"
+        },
+        {
+            "url": "assets/preload/popup/pop_2.png",
+            "type": "image",
+            "name": "pop_2_png"
+        },
+        {
+            "url": "assets/preload/popup/pop_3.png",
+            "type": "image",
+            "name": "pop_3_png"
+        },
+        {
+            "url": "assets/preload/end/end2_1_jpg.png",
+            "type": "image",
+            "name": "end2_1_jpg_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_29.png",
+            "type": "image",
+            "name": "s4_29_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_30.png",
+            "type": "image",
+            "name": "s4_30_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_31.png",
+            "type": "image",
+            "name": "s4_31_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_32.png",
+            "type": "image",
+            "name": "s4_32_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_29.png",
+            "type": "image",
+            "name": "n4_29_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_30.png",
+            "type": "image",
+            "name": "n4_30_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_31.png",
+            "type": "image",
+            "name": "n4_31_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_32.png",
+            "type": "image",
+            "name": "n4_32_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_88.png",
+            "type": "image",
+            "name": "s1_88_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_99.png",
+            "type": "image",
+            "name": "s1_99_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_1010.png",
+            "type": "image",
+            "name": "s1_1010_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/muyin1/s1_1111.png",
+            "type": "image",
+            "name": "s1_1111_png"
+        },
+        {
+            "url": "assets/preload/end/poster_2.png",
+            "type": "image",
+            "name": "poster_2_png"
+        },
+        {
+            "url": "assets/preload/end/poster_5.png",
+            "type": "image",
+            "name": "poster_5_png"
+        },
+        {
+            "url": "assets/preload/end/poster_6.png",
+            "type": "image",
+            "name": "poster_6_png"
+        },
+        {
+            "url": "assets/preload/game/bg_3.png",
+            "type": "image",
+            "name": "bg_3_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_29.png",
+            "type": "image",
+            "name": "n2_29_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_29.png",
+            "type": "image",
+            "name": "s2_29_png"
+        },
+        {
+            "url": "assets/loading/logo1.png",
+            "type": "image",
+            "name": "logo1_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_210.png",
+            "type": "image",
+            "name": "s2_210_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_36.png",
+            "type": "image",
+            "name": "s2_36_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_36.png",
+            "type": "image",
+            "name": "n2_36_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/qingjie2/n2_210.png",
+            "type": "image",
+            "name": "n2_210_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_33.png",
+            "type": "image",
+            "name": "n4_33_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_34.png",
+            "type": "image",
+            "name": "n4_34_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_33.png",
+            "type": "image",
+            "name": "s4_33_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_34.png",
+            "type": "image",
+            "name": "s4_34_png"
+        },
+        {
+            "url": "assets/preload/end/page5_1_jpg_3.png",
+            "type": "image",
+            "name": "page5_1_jpg_3_png"
+        },
+        {
+            "url": "assets/preload/end/page5_1_jpg_1.png",
+            "type": "image",
+            "name": "page5_1_jpg_1_png"
+        },
+        {
+            "url": "assets/preload/end/page5_1_jpg_4.png",
+            "type": "image",
+            "name": "page5_1_jpg_4_png"
+        },
+        {
+            "url": "assets/preload/end/page5_1_jpg_2.png",
+            "type": "image",
+            "name": "page5_1_jpg_2_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_35.png",
+            "type": "image",
+            "name": "n4_35_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_36.png",
+            "type": "image",
+            "name": "n4_36_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_37.png",
+            "type": "image",
+            "name": "n4_37_png"
+        },
+        {
+            "url": "assets/preload/cp/n1/meizhuang4/n4_38.png",
+            "type": "image",
+            "name": "n4_38_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_37.png",
+            "type": "image",
+            "name": "s4_37_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_36.png",
+            "type": "image",
+            "name": "s4_36_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_35.png",
+            "type": "image",
+            "name": "s4_35_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/meizhuang4/s4_38.png",
+            "type": "image",
+            "name": "s4_38_png"
+        },
+        {
+            "url": "assets/preload/game/rw01.png",
+            "type": "image",
+            "name": "rw01_png"
+        },
+        {
+            "url": "assets/preload/game/rw02.png",
+            "type": "image",
+            "name": "rw02_png"
+        },
+        {
+            "url": "assets/preload/game/rw03.png",
+            "type": "image",
+            "name": "rw03_png"
+        },
+        {
+            "url": "assets/preload/game/rw04.png",
+            "type": "image",
+            "name": "rw04_png"
+        },
+        {
+            "url": "assets/preload/game/rw05.png",
+            "type": "image",
+            "name": "rw05_png"
+        },
+        {
+            "url": "assets/preload/game/rw11.png",
+            "type": "image",
+            "name": "rw11_png"
+        },
+        {
+            "url": "assets/preload/game/rw12.png",
+            "type": "image",
+            "name": "rw12_png"
+        },
+        {
+            "url": "assets/preload/game/rw13.png",
+            "type": "image",
+            "name": "rw13_png"
+        },
+        {
+            "url": "assets/preload/game/rw14.png",
+            "type": "image",
+            "name": "rw14_png"
+        },
+        {
+            "url": "assets/preload/game/rw15.png",
+            "type": "image",
+            "name": "rw15_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_61.png",
+            "type": "image",
+            "name": "s2_61_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_62.png",
+            "type": "image",
+            "name": "s2_62_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_63.png",
+            "type": "image",
+            "name": "s2_63_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_64.png",
+            "type": "image",
+            "name": "s2_64_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_65.png",
+            "type": "image",
+            "name": "s2_65_png"
+        },
+        {
+            "url": "assets/preload/cp/s1/qingjie2/s2_66.png",
+            "type": "image",
+            "name": "s2_66_png"
+        }
+    ]
+}
