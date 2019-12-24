@@ -24,7 +24,6 @@ export default class StagePanel extends Component {
 
     render() {
         const { currentBg, bgMaterial ,bgNames} = this.state;
-        console.log(currentBg,bgNames[currentBg],bgMaterial[bgNames[currentBg]])
         const { wall, table } = bgMaterial[bgNames[currentBg]] || {};
 
         return (

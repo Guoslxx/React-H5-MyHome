@@ -7,7 +7,6 @@ const AppMaterialMap = new Map();
 export const loadImg = (cb) => {
     const list = [];
     const loadedList = [];
-    console.log(imgSource.length)
     const status = {
         success: 0,
         error: 0,

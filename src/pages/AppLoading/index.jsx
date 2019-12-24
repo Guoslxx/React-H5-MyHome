@@ -4,7 +4,6 @@ import './style.less';
 class AppLoading extends PureComponent {
     constructor(props) {
         super(props);
-        console.log(props)
     }
     state = {
         showMarkList: new Array(8).fill(false),

@@ -5,7 +5,6 @@ export default class FooterBar extends React.Component {
     render() {
         return (
             <EleSelector />
-         
         )
     }
 }

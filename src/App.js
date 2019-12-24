@@ -17,6 +17,9 @@ class App extends Component {
         loading: loading
       })
     })
+    .then(()=>{
+      console.timeEnd('load')
+    })
   }
 
   render() {

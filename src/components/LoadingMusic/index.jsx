@@ -12,7 +12,6 @@ class LoadingMusic extends PureComponent {
     }
 
     componentDidMount() {
-        console.log(this.audioRef);
         this.toggleMusic();
     }
 
