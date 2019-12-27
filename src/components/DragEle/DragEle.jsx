@@ -7,20 +7,9 @@ import ImgLoader from '../ImgLoader/ImgLoader';
 export default function DragEle(props) {
     const { name, containerReact: { width, height } } = props;
     console.log(width, height)
-    return (
-        <div className='app-dragele-panel'>
-            {getDragEleList(name)}
-        </div>
-    )
+    return (<ImgLoader name={name} key={name} />)
 }
 
-function getDragEleList(name) {
-    return (
-        <div className='app-dragele'>
-            {name.map(e => (<ImgLoader name={e} key={e} />))}
-        </div>
-    )
-}
 
 DragEle.propTypes = {
     name: PropTypes.arrayOf(PropTypes.string).isRequired,
