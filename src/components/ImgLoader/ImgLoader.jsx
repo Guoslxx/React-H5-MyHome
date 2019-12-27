@@ -66,4 +66,8 @@ const ImgLoader = props => {
     }
 }
 
+ImgLoader.propTypes = {
+    name: PropTypes.string.isRequired
+}
+
 export default ImgLoader;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './style.less';
 import move from 'move-js';
-import ImgLoader from '../../components/ImgLoader/ImgLoader';
+import ImgLoader from '../ImgLoader/ImgLoader';
 import element from './element.json';
 class EleSelector extends Component {
 
@@ -21,10 +21,6 @@ class EleSelector extends Component {
     constructor(props) {
         super(props);
         this.initState();
-
-    }
-    componentDidMount(){
-        console.log(this.context,this.props)
 
     }
 
