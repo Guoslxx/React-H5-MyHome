@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.less';
 import StagePanel from './StagePanel';
 import FooterBar from './FooterBar'
+
+
 const Scene = () => {
+
     return (
         <div className='main-scene'>
             <StagePanel />
-            <FooterBar/>
-            
+            <FooterBar />
         </div>
     )
 }

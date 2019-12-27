@@ -21,6 +21,11 @@ class EleSelector extends Component {
     constructor(props) {
         super(props);
         this.initState();
+
+    }
+    componentDidMount(){
+        console.log(this.context,this.props)
+
     }
 
     initState() {
@@ -76,7 +81,10 @@ class EleSelector extends Component {
                         )
                         }
                     </ul>
-                    <div className="ele-selector-switch" onClick={() => { this.changeUnfold() }}>
+                    <div
+                        className="ele-selector-switch"
+                        onClick={() => { this.changeUnfold() }}
+                        >
                         {
                             isUnfold ?
                                 <ImgLoader className='ele-selector-switch--fold' name='ui_3.png' /> :
@@ -141,10 +149,21 @@ class EleSelector extends Component {
         }
     }
 
+    handleMaterialClick(material) {
+        const { currentTab, panelSelect } = this.state;
+        const { onChange } = this.props;
+        const payload = { tab: currentTab, category: panelSelect[currentTab], icon: material };
+
+        console.log('payload', payload);
+
+        onChange && onChange(payload);
+
+    }
+
     getPanel() {
 
         const { currentTab, panelSelect } = this.state;
-        const { aside, curMaterial, isStop } = this.getAsideAndMaterial();
+        const { aside, curMaterial } = this.getAsideAndMaterial();
 
         let col = '';
         if (currentTab === 'bg') {
@@ -172,7 +191,11 @@ class EleSelector extends Component {
                     <ul className={`panel-content__list ${col ? 'list--' + col : ''}`}>
                         {
                             curMaterial && curMaterial.list.map(item => (
-                                <li className="panel-content__item" key={item}>
+                                <li
+                                    className="panel-content__item"
+                                    key={item}
+                                    onClick={() => { this.handleMaterialClick(item) }}
+                                >
                                     <ImgLoader name={`n${item}.png`} />
                                 </li>
                             ))
