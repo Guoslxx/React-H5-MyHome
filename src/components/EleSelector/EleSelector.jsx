@@ -20,12 +20,17 @@ class EleSelector extends Component {
 
     constructor(props) {
         super(props);
-        this.initState();
+        // this.initState();
+
+        this.state = {
+            ...this.state,
+            ...this.initState()
+        }
 
     }
 
     initState() {
-        const { element, tabs } = this.state;
+        const { element } = this.state;
         let _panelSelect = {};
 
         // 初始化各个面板的初始选项
@@ -36,7 +41,10 @@ class EleSelector extends Component {
                 _panelSelect[key] = firstKey;
             }
         })
-        this.state = { ...this.state, panelSelect: _panelSelect, };
+
+        return {
+            panelSelect: _panelSelect
+        }
     }
 
     changeUnfold() {
@@ -54,7 +62,7 @@ class EleSelector extends Component {
 
     selectElePanel(tab) {
         const { currentTab } = this.state;
-        if (tab != currentTab) {
+        if (tab !== currentTab) {
             this.setState({
                 currentTab: tab
             })
@@ -71,7 +79,7 @@ class EleSelector extends Component {
                             <li
                                 key={tab.name}
                                 onClick={() => { this.selectElePanel(tab.name) }}>
-                                <ImgLoader name={tab.name == currentTab ? tab.icon.replace('2', '1') : tab.icon} />
+                                <ImgLoader name={tab.name === currentTab ? tab.icon.replace('2', '1') : tab.icon} />
                             </li>
                         )
                         )
@@ -80,7 +88,7 @@ class EleSelector extends Component {
                     <div
                         className="ele-selector-switch"
                         onClick={() => { this.changeUnfold() }}
-                        >
+                    >
                         {
                             isUnfold ?
                                 <ImgLoader className='ele-selector-switch--fold' name='ui_3.png' /> :
@@ -125,14 +133,14 @@ class EleSelector extends Component {
                 .map((key, index) => (
                     {
                         label: key,
-                        isSelected: curTabPanelSelect ? curTabPanelSelect == key : index == 0,
+                        isSelected: curTabPanelSelect ? curTabPanelSelect === key : index === 0,
                     }
                 ));
 
             const materials = aside.map((item, index) => (
                 {
                     list: panelData[item.label],
-                    isSelected: curTabPanelSelect ? curTabPanelSelect == item.label : index == 0
+                    isSelected: curTabPanelSelect ? curTabPanelSelect === item.label : index === 0
                 }
             ));
 
@@ -164,7 +172,7 @@ class EleSelector extends Component {
         let col = '';
         if (currentTab === 'bg') {
             col = 'col-4';
-        } else if (panelSelect[currentTab] == '对联') {
+        } else if (panelSelect[currentTab] === '对联') {
             col = 'col-2';
         }
 
