@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import source from './source.json';
-const imgSource = source.filter(e => e.type == 'image');
+const imgSource = source.filter(e => e.type === 'image');
 
 const AppMaterialMap = new Map();
 export const loadImg = (cb) => {
@@ -14,7 +14,7 @@ export const loadImg = (cb) => {
     }
     imgSource.forEach(rce => {
         const name = rce.url.split('/').slice(-1);
-        if (rce.type == 'image') {
+        if (rce.type === 'image') {
             list.push(new Promise((resolve) => {
                 const img = new Image();
                 const obj = {};
@@ -59,7 +59,7 @@ const ImgLoader = props => {
     const isHas = AppMaterialMap.has(name);
     if (isHas) {
         const imgSrc = AppMaterialMap.get(name);
-        return (<img className='app-img-loader' {...restProps} src={imgSrc} />)
+        return (<img alt="img" className='app-img-loader' {...restProps} src={imgSrc} />)
     } else {
         console.warn('material not found:', name);
         return '';

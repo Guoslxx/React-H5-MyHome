@@ -2,9 +2,6 @@ import React, { PureComponent } from 'react';
 import './style.less';
 
 class AppLoading extends PureComponent {
-    constructor(props) {
-        super(props);
-    }
     state = {
         showMarkList: new Array(8).fill(false),
         currentShowIndex: 0,
@@ -25,7 +22,7 @@ class AppLoading extends PureComponent {
         this.timer = setInterval(() => {
             const { currentShowIndex, loading } = this.state;
             const _currentShowIndex = currentShowIndex >= 7 ? 0 : currentShowIndex + 1;
-            const _loading = loading >= 100 || loading == 'finshed' ? 'finshed' : loading + 10;
+            const _loading = loading >= 100 || loading === 'finshed' ? 'finshed' : loading + 10;
             this.setState({
                 currentShowIndex: _currentShowIndex,
                 loading: _loading
@@ -33,12 +30,12 @@ class AppLoading extends PureComponent {
         }, 1000)
     }
 
-    componentWillUnmount(){
+    componentWillUnmount() {
         clearInterval(this.timer);
     }
     cycleShowImg() {
         const { currentShowIndex } = this.state;
-        return this.imgSrcArr.map((src, idx) => (<img style={{ display: currentShowIndex == idx ? 'block' : 'none' }} key={idx} src={src} alt='loading' />))
+        return this.imgSrcArr.map((src, idx) => (<img style={{ display: currentShowIndex === idx ? 'block' : 'none' }} key={idx} src={src} alt='loading' />))
     }
 
     renderLoading(progress) {
@@ -59,7 +56,7 @@ class AppLoading extends PureComponent {
             <main className='app-loading'>
                 <div className="app-loading-container">
                     <section className='app-loading-table'>
-                        <img className='ele-table' src={require('../../assets/images/loading_5.png')} />
+                        <img className='ele-table' alt='img' src={require('../../assets/images/loading_5.png')} />
                         {this.cycleShowImg()}
                     </section>
                     <section className='app-loading-text'>
@@ -67,7 +64,7 @@ class AppLoading extends PureComponent {
                     </section>
                     <section className='app-loading-progress-btn'>
                         {loading >= 100 ?
-                            <button onClick={() => { history.push('/main-secne')}}>START</button>
+                            <button onClick={() => { history.push('/main-secne') }}>START</button>
                             :
                             this.renderLoading(loading)
                         }
