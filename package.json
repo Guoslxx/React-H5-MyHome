@@ -139,5 +139,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "homepage": "https://guoslxx.github.io/React-H5-MyHome/docs"
 }
