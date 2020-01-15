@@ -36,9 +36,9 @@ class LoadingMusic extends PureComponent {
 
         return (
             <div className='app-loading-music' onClick={() => { this.toggleMusic() }}>
-                <img style={{ visibility: stop ? 'hidden' : 'visible' }} className={`loading-music ${stop ? 'loading-music--stop' : ''}`} src='/material/dft_music_play.png' alt='icon-loading-music' />
-                <img style={{ visibility: !stop ? 'hidden' : 'visible' }} className={`loading-music ${stop ? 'loading-music--stop' : ''}`} src='/material/dft_music_stop.png' alt='icon-loading-music' />
-                <audio ref={this.audioRef} src='/material/loading.mp3'></audio>
+                <img style={{ visibility: stop ? 'hidden' : 'visible' }} className={`loading-music ${stop ? 'loading-music--stop' : ''}`} src={`${process.env.PUBLIC_URL}/material/dft_music_play.png`} alt='icon-loading-music' />
+                <img style={{ visibility: !stop ? 'hidden' : 'visible' }} className={`loading-music ${stop ? 'loading-music--stop' : ''}`} src={`${process.env.PUBLIC_URL}/material/dft_music_stop.png`} alt='icon-loading-music' />
+                <audio ref={this.audioRef} src={`${process.env.PUBLIC_URL}/material/loading.mp3`}></audio>
             </div>
         )
     }

@@ -3,15 +3,6 @@ import PropTypes from 'prop-types';
 import './style.less';
 import ImgLoader from '../ImgLoader/ImgLoader';
 
-let onMove = 'mousemove';
-let onDown = 'mousedown';
-let onUp = 'moseUp'
-let isMobile = 'ontouchmove' in document;
-if (isMobile) {
-    onMove = 'touchmove';
-    onDown = 'touchstart';
-    onMove = 'touchend';
-}
 // const onmove = 'ontouchmove' in document ? 'touchmove' : 'mousemove';
 // const onmove = 'ontouchmove' in document ? 'touchmove' : 'mousemove';
 export default class DragEle extends React.Component {
@@ -28,7 +19,7 @@ export default class DragEle extends React.Component {
     }
 
     render() {
-        const { name, containerRect: { width, height } } = this.props;
+        const { name, } = this.props;
         const { displayX, displayY } = this.state;
         const eleStyle = {
             transform: `translate(${displayX}px,${displayY}px)`
@@ -51,6 +42,8 @@ export default class DragEle extends React.Component {
         }
         const { parentNode: { offsetWidth: parentOffsetWidth, offsetHeight: parentOffsetHeight } } = ele;
         ele.addEventListener('touchstart', e => {
+            e.preventDefault();
+
             let rect = e.targetTouches[0];
             const { displayX, displayY } = this.state;
             const { clientX, clientY } = rect;
@@ -62,6 +55,8 @@ export default class DragEle extends React.Component {
             }
         });
         ele.addEventListener('touchmove', e => {
+            e.preventDefault();
+
             const { offsetWidth: eleOffsetWidth, offsetHeight: eleOffsetHeight } = ele;
             let rect = e.targetTouches[0];
             const { clientX, clientY } = rect;
@@ -95,52 +90,7 @@ export default class DragEle extends React.Component {
                 displayY: moveY
             })
         });
-        // ele.addEventListener('touchend', e => {
-        //     // console.log('end', e)
-        //     // let rect = e.targetTouches[0];
-        //     // console.log('end', rect.clientX)
-        // });
-        // ele.addEventListener('touchmove', e => { this.handleMouseDown(e) });
-
     }
-
-    isDraging = false
-
-    displayX = 0
-
-    displayY = 0
-
-    handleMouseDown(e) {
-        const { current: ele } = this.eleRef;
-        console.log('down', e.clientX, e);
-
-
-        // e.target.ontouchmove = function (moveEvent) {
-        //     console.log('move');
-        // }
-
-        // e.target.ontouchend = function (endEvent) {
-        //     console.log('end');
-        // }
-
-        // document.addEventListener(onMove, this.handleMouseMove.bind(this));
-        // document.addEventListener(onUp, this.handleMouseUp.bind(this));
-    }
-
-    handleMouseMove(e) {
-        console.log('move', e);
-        this.isDraging = true;
-    }
-
-    handleMouseUp() {
-        const { current: ele } = this.eleRef;
-        if (this.isDraging === true) {
-            this.isDraging = false;
-        }
-        document.removeEventListener(onMove, this.handleMouseMove.bind(this));
-        document.removeEventListener(onUp, this.handleMouseUp.bind(this));
-    }
-
 }
 
 
