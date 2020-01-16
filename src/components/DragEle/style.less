@@ -1,10 +1,61 @@
 .app-dragele {
+    box-sizing: content-box;
     position: absolute;
-    width: 200px;
     transform: translateX(60px) translateY(50px);
+    padding: 4px;
 
     img {
         width: 100%;
         height: 100%;
+    }
+
+    .app-dragele-view {
+        position: relative;
+        z-index: 99;
+    }
+
+    .app-dragele-tool {
+        display: none;
+
+        &__close,
+        &__rotate,
+        &__stretch {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+        }
+
+        &__close {
+            background: url('../../assets/images/ui/page4_301.png');
+            background-size: 100%;
+            top: -30px;
+            right: -30px;
+        }
+
+        &__rotate {
+            background: url('../../assets/images/ui/page4_321.png');
+            background-size: 100%;
+            bottom: -30px;
+            left: -30px;
+        }
+
+        &__stretch {
+            background: url('../../assets/images/ui/page4_311.png');
+            background-size: 100%;
+            bottom: -30px;
+            right: -30px;
+        }
+    }
+
+    &--selected {
+        .app-dragele-tool {
+            display: block;
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 2px dashed #fff;
+        }
     }
 }

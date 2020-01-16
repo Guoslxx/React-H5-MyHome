@@ -6,7 +6,7 @@
         "subkeys": "dft_bgm_ico,dft_bgm_main,dft_com_adr,dft_com_ios_1,dft_com_ios_10,dft_com_ios_11,dft_com_ios_2,dft_com_ios_3,dft_com_ios_4,dft_com_ios_5,dft_com_ios_6,dft_com_ios_7,dft_com_ios_8,dft_com_ios_9,dft_hand,dft_ios_hint,dft_ori_ico"
     },
     {
-        "url": "assets/default/dft_mudsic_stop.png",
+        "url": "assets/default/dft_music_stop.png",
         "type": "image",
         "name": "dft_music_stop_png"
     },
