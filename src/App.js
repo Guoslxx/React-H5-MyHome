@@ -1,54 +1,47 @@
-import React, { Component } from 'react';
-import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import MainScene from './pages/Main/Scene';
-import AppLoading from './pages/AppLoading';
+import React from 'react';
+import './App.css';
+import bg from './assets/img/heka-h5-bg.jpg';
 
-import { loadImg } from './components/ImgLoader/ImgLoader';
-import LoadingMusic from './components/LoadingMusic';
 
-class App extends Component {
+/**
+此刻
+伴随着新年钟声的敲响
+新的一年
+幸福开启
+真诚向您道一声
+谢谢
+祝您新的一年工作顺利 
+ */
+class App extends React.Component {
+
   state = {
-    loading: 0
-  }
-  componentDidMount() {
-    console.time('load')
-    loadImg(({ loading }) => {
-      this.setState({
-        loading: loading
-      })
-    })
-    .then(()=>{
-      console.timeEnd('load')
-    })
+    displayText: 'asdf'
   }
 
   render() {
-    const { loading } = this.state;
-    const isLoading = loading >= 100;
-    let routerEle = null;
-    if (!isLoading) {
-      routerEle = (<>
-        <Redirect from='/' to='/loading'></Redirect>
-        <Route exact path='/loading' render={props => <AppLoading {...props} loading={loading} />}></Route>
-      </>)
-    } else {
-      routerEle = (<>
-        <Redirect from='/' to='/loading'></Redirect>
-        <Route exact path='/loading' render={props => <AppLoading {...props} loading={loading} />}></Route>
-        <Route exact path='/main-secne' component={MainScene}></Route>
-      </>)
-    }
-
+    const { displayText } = this.state;
     return (
-      <Router>
-        <LoadingMusic />
-        <Switch>
-          {routerEle}
-        </Switch>
-      </Router>
+      <div className="App" >
+        <main className="app-container" >
+          <img src={bg} alt="bg" />
+          <div className="text-show-container">{displayText}</div>
+        </main>
+        <div className="app-tabs">
+          <textarea
+            onInput={(e) => { this.handleInput(e) }}
+            cols="30"
+            rows="2">
+          </textarea>
+        </div>
+      </div>
     );
   }
 
+  handleInput(e) {
+    this.setState({
+      displayText: e.target.value
+    })
+  }
 }
 
 export default App;
