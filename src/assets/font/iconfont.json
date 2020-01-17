@@ -1,0 +1,30 @@
+{
+  "id": "1616641",
+  "name": "H5贺卡",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "258600",
+      "name": "导出",
+      "font_class": "tubiao105",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1272133",
+      "name": "分享",
+      "font_class": "fenxiang-1",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "6447160",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    }
+  ]
+}
