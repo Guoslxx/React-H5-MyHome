@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.less';
+import bg1 from './assets/img/bg1.jpg';
 import bg2 from './assets/img/bg2.jpg';
 import bg3 from './assets/img/bg3.jpg';
 import bg4 from './assets/img/bg4.jpg';
@@ -20,9 +21,10 @@ function closest(el, selector) {
 
 // 背景图片数据
 const data = [
-  { icon: bg2, text: '恭贺新禧', signatureStyle: { top: '50.5%', left: '55%' }, textStyle: { top: '24.5%', left: '35%', color: '#dfc58d' } },
-  { icon: bg3, text: '福禄双全', signatureStyle: { top: '54.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#edd1b1' } },
-  { icon: bg4, text: '你好,2020', signatureStyle: { top: '54.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#ffe2c2' } }
+  { icon: bg1, text: '恭贺新年', signatureStyle: { top: '70.5%', left: '48%' }, textStyle: { top: '40.5%', left: '32%', color: '#dfc58d' } },
+  { icon: bg4, text: '你好,2020', signatureStyle: { top: '54.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#ffe2c2' } },
+  { icon: bg2, text: '恭贺新禧', signatureStyle: { top: '55.5%', left: '55%' }, textStyle: { top: '24.5%', left: '35%', color: '#dfc58d' } },
+  { icon: bg3, text: '福禄双全', signatureStyle: { top: '57.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#edd1b1' } },
 ]
 
 class App extends React.Component {
@@ -43,13 +45,16 @@ class App extends React.Component {
 新的一年
 幸福开启
 真诚向您道一声
-谢谢
-祝您新的一年工作顺利 `,
+新年好
+衷心祝您新的一年
+身体棒棒的，工作顺顺的
+生活美美的，事业旺旺的 `,
     popupVisible: false,
     previewModel: false,
     previewImg: 'loading',
     signatureImg: '',
-    penColor: ''
+    penColor: '',
+    tabsInitPage: 0
   }
 
   tabs = [
@@ -85,7 +90,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { displayText, popupVisible, previewModel, previewImg, curBg, signatureImg, penColor } = this.state;
+    const { displayText, popupVisible, previewModel, previewImg, curBg, signatureImg, penColor, tabsInitPage } = this.state;
     return (
       <div className="App" >
         <main className="app-container" id='capture'>
@@ -115,7 +120,8 @@ class App extends React.Component {
         >
           <div style={{ height: '60vh' }}>
             <Tabs tabs={this.tabs}
-              initialPage={0}
+              initialPage={tabsInitPage}
+              onChange={(tab, index) => { this.setState({ tabsInitPage: index }) }}
             >
               <div style={{ height: '200px', backgroundColor: '#fff' }}>
                 <List>
