@@ -76,10 +76,10 @@ class SignaturePad extends React.Component {
             Toast.info('签名为空',1)
             return;
         }
-        if (action == 'update') {
+        if (action === 'update') {
             dataUrl = this.signaturePad.toDataURL();
             Toast.success('签名更新成功!',1);
-        } else if (action == 'clear') {
+        } else if (action === 'clear') {
             this.signaturePad.clear();
             Toast.success('签名清除成功!',1);
         }

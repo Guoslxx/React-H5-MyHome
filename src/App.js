@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.less';
+import bg0 from './assets/img/bg0.jpg';
 import bg1 from './assets/img/bg1.jpg';
 import bg2 from './assets/img/bg2.jpg';
 import bg3 from './assets/img/bg3.jpg';
 import bg4 from './assets/img/bg4.jpg';
+import bg5 from './assets/img/bg5.jpg';
 import { Button, Modal, Tabs, TextareaItem, List, Grid, ActivityIndicator } from 'antd-mobile';
 import html2canvas from 'html2canvas';
 import SignaturePad from './components/SignaturePad';
@@ -21,10 +23,15 @@ function closest(el, selector) {
 
 // 背景图片数据
 const data = [
-  { icon: bg1, text: '恭贺新年', signatureStyle: { top: '70.5%', left: '48%' }, textStyle: { top: '40.5%', left: '32%', color: '#dfc58d' } },
-  { icon: bg4, text: '你好,2020', signatureStyle: { top: '54.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#ffe2c2' } },
+  { icon: bg5, text: '新春贺卡', signatureStyle: { top: '60.5%', left: '48%' }, textStyle: { top: '25.5%', left: '23%', color: '#f4d5b5' } },
   { icon: bg2, text: '恭贺新禧', signatureStyle: { top: '55.5%', left: '55%' }, textStyle: { top: '24.5%', left: '35%', color: '#dfc58d' } },
+  { icon: bg1, text: '恭贺新年', signatureStyle: { top: '70.5%', left: '48%' }, textStyle: { top: '40.5%', left: '32%', color: '#f4d5b5' } },
+  { icon: bg4, text: '你好,2020', signatureStyle: { top: '54.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#ffe2c2' } },
   { icon: bg3, text: '福禄双全', signatureStyle: { top: '57.5%', left: '55%' }, textStyle: { top: '24.5%', left: '18.5%', color: '#edd1b1' } },
+  {
+    icon: bg0, text: '鼠金福', signatureStyle: { top: '76.5%', left: '48%' },
+    textStyle: { top: '45.5%', left: '28%', color: '#573002' }
+  },
 ]
 
 class App extends React.Component {
@@ -136,7 +143,7 @@ class App extends React.Component {
               <div id='insert' style={{ backgroundColor: '#fff' }}>
                 <Grid
                   data={data}
-                  columnNum={2}
+                  columnNum={3}
                   onClick={(el, index) => { this.selectBg(el, index) }}
                 />
               </div>
@@ -183,7 +190,6 @@ class App extends React.Component {
   }
 
   selectBg(el, index) {
-    console.log(el, index);
     this.setState({
       curBg: el
     })
