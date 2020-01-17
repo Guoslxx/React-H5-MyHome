@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.App {
+  height: 100vh;
+}
+
+.App {
+  position: relative;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.App .app-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App .app-container .text-show-container {
+  position: absolute;
+  top: 24.5%;
+  left: 35%;
+  width: 170px;
+  height: 165px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  font-size: 16px;
+}
+
+.App .app-container {
+  .signature-kit {
+    position: absolute;
+    top: 24.5%;
+    left: 35%;
+    width: 100px;
+    height: 50px;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.App .app-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.App .app-btnbar {
+  position: fixed;
+  right: 8px;
+  bottom: 105px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .6);
+  color: #000;
+  border-radius: 8px;
+  padding: 8px 0;
+
+  .iconfont {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+    &.iconfont:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.preview-container {
+  padding: 15px 25px 10px;
+  height: 85vh;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .am-activity-indicator {
+    justify-content: center;
+  }
+}
+
+.preview-btns {
+  padding: 0 25px;
+}
+
+.edit-model-btns {
+  margin-top: 25px;
+  padding: 0 15px 15px;
+}
